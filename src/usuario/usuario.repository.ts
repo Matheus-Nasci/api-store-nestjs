@@ -11,4 +11,8 @@ export class UsuarioRespository {
     async listar() {
         return this.usuarios;
     }
+
+    async existeEmail(email: string) {
+        return false;
+    }
 }
